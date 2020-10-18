@@ -1,16 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="eng">
 
 <head>
-     <title>
-          hospital management system
-     </title>
+     <title>hospital management system</title>
      <meta charset="utf-8">
      <meta name="veiwport" content="width=device-width initial=1">
-</head>
+     <link rel="stylesheet" href="style.css" </head>
 
 <body>
-     <h1 style="font-size: 30px; color: red;">Well Come To HealthCare!</h1>
+     <div class="container">
+          <div class="header">
+               <h1>well come to health care</h1>
+               <img src="security.png" alt="athenticate yourself">
+          </div>
+          <div class="middle">
+               <label for="login">login type</label><br>
+               <input type="text" id="login" name="login"><br>
+               <label for="firstname">FirstName</label><br>
+               <input type="text" id="firstname" name="firstname"><br>
+               <label for="familyname">FamilyName</label><br>
+               <input type="text" id="familyname" name="familyname"><br>
+               <label for="psw">password</label><br>
+               <input type="password" id="psw" name="password"><br>
+               <label for="checkbox">show passowrd</label>
+               <input type="checkbox" id="checkbox" name="checkbox"><br>
+               <input type="button" class="btn" value="login">
+          </div>
+     </div>
 </body>
 
 </html>
