@@ -1,0 +1,40 @@
+.container {
+     display: grid;
+     grid-template-areas: 'header header header header header header'
+                           'middle middle middle middle middle middle';
+     
+     padding: 10px;
+     margin: 15px;
+     justify-content: center;
+}
+.header {
+     grid-area: header;
+     background-color: grey;
+     padding: 20px;
+     font-size: 30px;
+     text-align: center;
+}
+
+.header > img {
+     width: 70px;
+     height: 70px;
+     border-radius: 40px;
+     border: 3px dotted lime;
+}
+
+.middle {
+     
+     grid-area: middle;
+     background-color: lightgrey;
+     padding: 35px;
+}
+
+.btn {
+     width: 30xp;
+     height: 25px;
+     background-color: blue;
+     border-radius: 8px;
+}
+.btn:hover {
+     background-color: green;
+}
